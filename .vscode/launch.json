@@ -1,0 +1,60 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "DistributedPredictor",
+            "request": "launch",
+            "mainClass": "DistributedPredictor",
+            "projectName": "dismec-master_c418729"
+        },
+        {
+            "type": "java",
+            "name": "FeatureRemapper",
+            "request": "launch",
+            "mainClass": "FeatureRemapper",
+            "projectName": "dismec-master_c418729"
+        },
+        {
+            "type": "java",
+            "name": "LabelExtractor",
+            "request": "launch",
+            "mainClass": "LabelExtractor",
+            "projectName": "dismec-master_c418729"
+        },
+        {
+            "type": "java",
+            "name": "LabelRelabeler",
+            "request": "launch",
+            "mainClass": "LabelRelabeler",
+            "projectName": "dismec-master_c418729"
+        },
+        {
+            "type": "java",
+            "name": "MultiLabelMetrics",
+            "request": "launch",
+            "mainClass": "MultiLabelMetrics",
+            "projectName": "dismec-master_c418729"
+        },
+        {
+            "type": "java",
+            "name": "TfIdfCalculator",
+            "request": "launch",
+            "mainClass": "TfIdfCalculator",
+            "projectName": "dismec-master_c418729"
+        }
+    ] ,
+    "env": {
+        "JAVA_OPTS": "-Xmx4096m"
+    }
+    
+}
